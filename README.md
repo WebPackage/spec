@@ -32,6 +32,7 @@ a general layout of the `package.json`:
 {
   "id": "foo",
   "title": "bar",
+  "description": "foo bar",
   "author": "John Doe",
   "version": "1.0",
   "icon": "icon.png",
