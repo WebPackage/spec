@@ -1,14 +1,15 @@
 # WebPackage
 WebPackage is a *revolutionary* new way of distributing web apps on any platform. It works by packaging the web app in a `.webpkg` file, a special kind of zip file designed for distributing web apps. 
 ## Use Cases
-* In third-world countries, web apps and games can be distributed P2P and run in any client that reads these packages
+* In third-world countries, web apps and games can be distributed P2P and run in any client that reads these packages  
+* Offline playing of flash games
 ## WebPackage vs. PWA
 * put something here
 ## Client Specifications
 For a webpackage client to function it must be able to  
 * Import a .webpkg by extracting the file in the same manor as a .zip and place the .web  in an appropriate directory  
 * Export a .webpkg by removing local-package.json and then zipping the .web and naming it with a .webpkg extension  
-* Render a full html5 and javascript and optionaly flash local webpage from the app directory  
+* Render a full html5, css, and javascript and optionaly flash local webpage from the app directory  
 * If required, only import a package of the intended type; a flash game client will only be able to import packages with the `game` type  
 * If required, save client specific metadata in local-package.json  
 ## Package Structure
