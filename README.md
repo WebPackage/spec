@@ -37,4 +37,6 @@ a general layout of the `package.json`:
   "icon": "icon.png",
   "type": "generic"
 }
-```
+```  
+### icon.png
+the standard icon size is 2048 pixels by 2048 pixels
