@@ -20,7 +20,7 @@ id.webpkg
 ```
 ### package.json
 a general layout of the `package.json`:
-```
+```json
 {
   "id": "foo",
   "title": "bar",
