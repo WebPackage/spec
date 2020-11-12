@@ -2,7 +2,7 @@
 WebPackage is a *revolutionary* new way of distributing web apps on any platform. It works by packaging the web app in a `.webpkg` file, a special kind of zip file designed for distributing web apps. 
 ## Use Cases
 * In third-world countries, web apps and games can be distributed P2P and run in any client that reads these packages  
-* Offline playing of flash games
+* Offline playing of browser games
 ## WebPackage vs. PWA
 * put something here
 ## Client Specifications
