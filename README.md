@@ -5,7 +5,7 @@ WebPackage is a *revolutionary* new way of distributing web apps on any platform
 ## WebPackage vs. PWA
 * put something here
 ## Structure
-The structure of a `.webpkg` contains a folder with named the id of the app with .app at the end snd contains two folders, a `app` folder and a `meta` folder. The `app` folder is where you store all of the code, such as html, css, and javascript files. The `meta` folder is where you store an icon and a `package.json` file. `local-package.json` is where the client stores user specific information that would not make sense to be distributed. 
+The structure of a `.webpkg` contains a folder named the id of the app with .app at the end and contains two folders, a `app` folder and a `meta` folder. The `app` folder is where you store all of the code, such as html, css, and javascript files. The `meta` folder is where you store an icon and a `package.json` file. `local-package.json` is where the client stores user specific information that would not make sense to be distributed and its contents is specific to the client and should not be included in a release.  
 general layout:  
 ```
 id.webpkg  
