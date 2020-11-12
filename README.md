@@ -8,8 +8,8 @@ WebPackage is a *revolutionary* new way of distributing web apps on any platform
 The structure of a `.webpkg` contains a folder with named the id of the app with .app at the end snd contains two folders, a `app` folder and a `meta` folder. The `app` folder is where you store all of the code, such as html, css, and javascript files. The `meta` folder is where you store an icon and a `package.json` file. `local-package.json` is where the client stores user specific information that would not make sense to be distributed. 
 general layout:  
 ```
-name.webpkg  
-|- name.app/  
+id.webpkg  
+|- id.app/  
 |-- meta/  
 |--- package.json  
 |--- local-package.json  
